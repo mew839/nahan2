@@ -919,7 +919,7 @@ export default {
 
                     if (isRealBrowser && !isCustomUaAllowed) {
                         if (isValidUser) {
-                            const subscriptionUrl = env.SUBSCRIPTION_URL || 'https://raw.githubusercontent.com/itsyebekhe/nahan/main/subscription.html';
+                            const subscriptionUrl = env.SUBSCRIPTION_URL || 'https://github.com/mew839/nahan2/blob/main/subscription.html';
                             try {
                                 const resp = await fetchT(subscriptionUrl);
                                 let html = await resp.text();
